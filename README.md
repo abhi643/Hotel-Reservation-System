@@ -6,6 +6,8 @@ For this project i have used java projet with no tools, you can even use maven o
 You also got to have Mysql workbench installed in your dekstop. You need to have a root username and root password to your MySql server client which you have to update in the Hotel Reservation code in order to connect
 it with your very own MySql server.
 then you have to create a database named "hotel_db" in which you have to have a table named "reservations" with following credentials 
+
+
 +------------------+--------------+------+-----+-------------------+-------------------+
 | Field            | Type         | Null | Key | Default           | Extra             |
 +------------------+--------------+------+-----+-------------------+-------------------+
@@ -15,5 +17,7 @@ then you have to create a database named "hotel_db" in which you have to have a 
 | contact_number   | varchar(10)  | NO   |     | NULL              |                   |
 | reservation_date | timestamp    | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
 +------------------+--------------+------+-----+-------------------+-------------------+
+
+
 Above i have described the table which you will have to create before running the java file in order for it to fetch and enter data in the reservations table.
 After doing all this you are all good to run and understand the code in order to better understand JDBC and MySql concepts.
