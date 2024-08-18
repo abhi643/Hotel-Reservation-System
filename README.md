@@ -1,11 +1,11 @@
 This repository includes a java file, in which exists a code for Hotel reservation system made purely upon the foundations of JDBC and MySql database and offcourse core java. 
 To run this file you gotta have a Mysql connector JAR file which you can download from the web. Then you will have to include that file in you referenced libraries of your respected code editor's Java Prject. 
+
 For this project i have used java projet with no tools, you can even use maven or gradle for instance. Either way you gotta have the connector file ready in order to run this code.
+Here is the link from where you can download the connector JAR file fkor JDBC and MySql connectivity : https://dev.mysql.com/downloads/connector/j/
 
 
-You also got to have Mysql workbench installed in your dekstop. You need to have a root username and root password to your MySql server client which you have to update in the Hotel Reservation code in order to connect
-it with your very own MySql server.
-then you have to create a database named "hotel_db" in which you have to have a table named "reservations" with following credentials 
+You also got to have Mysql workbench installed in your dekstop. You need to have a root username and root password to your MySql server client which you have to update in the Hotel Reservation code in order to connect it with your very own MySql server. Then you have to create a database named "hotel_db" in which you have to have a table named "reservations" with following credentials 
 
 
 +------------------+--------------+------+-----+-------------------+-------------------+
